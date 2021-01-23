@@ -55,6 +55,24 @@ Setup.py is what pip looks for in a given directory. It uses something called se
 
 And don’t fail to mention which python version it’s made for. All of this metadata is important. 
 
-![Preview Codes](https://github.com/LuxTechAcademy/Writing-Python-Packages/blob/main/installdempo.png)
+![Preview Codes](https://github.com/LuxTechAcademy/Writing-Python-Packages/blob/main/installdempo.png) 
+
+### Understanding what is PIP 
+pip is a package installer for Python used to install packages (mainly) from PyPI(Python Package Index). Launched in 2008 as an upgrade to easyinstall, even though both are built on top of setuptools. [1]
+
+
+PyPI is a vast package index where anyone can submit their package, and anyone across the globe can do pip install your-package-name . 
+
+
+#### When you run <code> pip install this what happens
+	
+1) First, it creates a wheel (.whl) file; which is an accepted file for package distribution.
+
+
+2). In the installation process, it uses this wheel file and installs it in site-package directory(Anaconda uses this). 
+
+
+3). In-case of downloading it from the internet, a local cache is often created in pkgs folder.	
+
 
 
