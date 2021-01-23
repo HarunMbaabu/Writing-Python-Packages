@@ -4,7 +4,7 @@ A few years back when I typed <code> py pip install flask </code> , a few second
 I could install any package I wanted and not worry about building it source/ installing or configuring the system variable. 
 
 
-![Test Image 5](https://…/3DTest.png)
+![Preview Codes](https://github.com/LuxTechAcademy/Writing-Python-Packages/blob/main/Screenshot%20from%202021-01-23%2014-33-41.png)
 
 
 Over the years, I continued using pip and every time, it didn’t fail to fascinate me. It really made me wonder how simple a piece of technology can be. Being a Windows user, every time I installed something new, I had to configure the system path. So this definitely made my life simpler.
