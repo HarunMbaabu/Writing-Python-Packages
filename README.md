@@ -18,4 +18,12 @@ Files in the same module can always be imported by all files in the directory. B
 
 But what if you want python package available to everyone across the globe?
 
-> You publish your package on PyPI. (so everyone can pip install your-package-name)
+> You publish your package on PyPI. (so everyone can pip install your-package-name) 
+
+
+~~~python
+def hello():
+	return "hello worl"
+
+hello()
+~~~
