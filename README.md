@@ -21,9 +21,36 @@ But what if you want python package available to everyone across the globe?
 > You publish your package on PyPI. (so everyone can pip install your-package-name) 
 
 
+## app.py
 ~~~python
 def hello():
 	return "hello worl"
 
 hello()
 ~~~
+
+## setup.py
+~~~python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+from setuptools import setup, find_packages
+setup(
+  author="Harun Mbaabu",
+  author_email='mbaabuharun8@gmail.com',
+  classifiers=[
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3.6.8',
+  ],
+  description="Simple python package",
+  license="MIT license",
+  include_package_data=True,
+  name='app',
+  version='0.1.0',
+  zip_safe=False,
+)
+~~~
+
+
+Setup.py is what pip looks for in a given directory. It uses something called setuptools[1] which enables packaging. It contains the name of your package, a brief description of your package, along with author information. And don’t fail to mention which python version it’s made for. All of this metadata is important.
+
+
