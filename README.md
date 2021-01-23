@@ -64,7 +64,7 @@ pip is a package installer for Python used to install packages (mainly) from PyP
 PyPI is a vast package index where anyone can submit their package, and anyone across the globe can do pip install your-package-name . 
 
 
-#### When you run <code> pip install this what happens
+#### When you run <code> pip install this what happens </code>
 	
 1) First, it creates a wheel (.whl) file; which is an accepted file for package distribution.
 
