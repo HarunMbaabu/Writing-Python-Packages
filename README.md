@@ -51,6 +51,8 @@ setup(
 ~~~
 
 
-Setup.py is what pip looks for in a given directory. It uses something called setuptools[1] which enables packaging. It contains the name of your package, a brief description of your package, along with author information. And don’t fail to mention which python version it’s made for. All of this metadata is important.
+Setup.py is what pip looks for in a given directory. It uses something called setuptools[1] which enables packaging. It contains the name of your package, a brief description of your package, along with author information.
+
+And don’t fail to mention which python version it’s made for. All of this metadata is important.
 
 
